@@ -27,7 +27,9 @@ inurl:".php?id=" "You have an error in your SQL syntax"
 
 •  Development, test, UAT and staging versions of the website
 
-2. ลองทำการค้นหาด้วย search engine อื่นๆ
+2. ลองทำการค้นหาด้วย search engine อื่นๆ ต่อไป
+
+
 
 Ref : https://github.com/OWASP/wstg/blob/master/document/4_Web_Application_Security_Testing/4.2_Information_Gathering/4.2.1_Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage_OTG-INFO-001.md
 
