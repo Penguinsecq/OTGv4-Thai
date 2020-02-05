@@ -13,7 +13,7 @@ use "curl" to test
 
 Example not vulnerable server:
 
-< # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com
+> # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com
 HTTP/1.1 403 Forbidden
 Date: Sat, 04 Jun 2011 06:46:21 GMT
 Server: Apache
@@ -32,7 +32,7 @@ on this server.</p>
 
 Example of a vulnerable server:
 
-< # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.vulnerable.com
+> # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.vulnerable.com
 HTTP/1.1 200 OK
 Date: Sat, 04 Jun 2011 06:34:51 GMT
 Server: Apache
