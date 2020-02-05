@@ -33,7 +33,7 @@ below shown that there is /admin/useradmin.jsp in this website.
 
 5. Using google or other search engine to find cache page and try to find old file
 
-![C815569C-E7CC-4270-9531-6FB8DF3BE74F](https://user-images.githubusercontent.com/60565002/73835385-e4fac280-483f-11ea-939e-a2b56d7333cd.png)
+![6EB31BA3-5F08-45F8-9111-4F92E352A4C8](https://user-images.githubusercontent.com/60565002/73835486-0bb8f900-4840-11ea-9397-a12a755c9644.png)
 
 ![C815569C-E7CC-4270-9531-6FB8DF3BE74F](https://user-images.githubusercontent.com/60565002/73835399-ea580d00-483f-11ea-9d82-34d14f2a356d.png)
 
