@@ -20,8 +20,6 @@ For Virtual hosts
 
 ![A84610F8-6087-40B5-A853-62FAB075E52A](https://user-images.githubusercontent.com/60565002/73825623-e53e9200-482e-11ea-90ad-19118528528c.png)
 
-![25BA4184-B17C-4664-873D-8F0EE76F760E](https://user-images.githubusercontent.com/60565002/73825628-e7085580-482e-11ea-9f15-83f73f1da09b.png)
-
 2. dnsdumster
 
 ![5943F9CF-E7BB-44C9-B8F3-485D3A410779](https://user-images.githubusercontent.com/60565002/73825688-07d0ab00-482f-11ea-9ca5-99a561d847e2.png)
