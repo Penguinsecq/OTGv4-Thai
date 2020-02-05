@@ -1,10 +1,10 @@
-How to test
+**How to test**
 
 1.  Discover supported http method
 
 Use nmap with http-methods NSE script as following picture. Below picture is shown "Supported Methods"
 
-
+![662291DE-7BD9-4E0B-BC96-812EF15D3D0A](https://user-images.githubusercontent.com/60565002/73835870-c3e6a180-4840-11ea-86bd-52865ca63422.png)
 
 
 2. Test XST Potential
@@ -13,7 +13,7 @@ use "curl" to test
 
 Example not vulnerable server:
 
-# curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com
+< # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com
 HTTP/1.1 403 Forbidden
 Date: Sat, 04 Jun 2011 06:46:21 GMT
 Server: Apache
@@ -32,7 +32,7 @@ on this server.</p>
 
 Example of a vulnerable server:
 
-# curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.vulnerable.com
+< # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.vulnerable.com
 HTTP/1.1 200 OK
 Date: Sat, 04 Jun 2011 06:34:51 GMT
 Server: Apache
@@ -60,7 +60,7 @@ Accept: */*
 
 ลองใช้ชื่อ method เช่น JEFF ตามภาพ ซึ่ง web server ควรจะแสดง error page ด้วย 405 หรือ 501 แต่ถ้าเรียกแล้วตอบด้วย 200 ก็ถือว่ามีช่องโหว่
 
-
+![E027F3A5-AD24-4869-922C-707B624F66FD](https://user-images.githubusercontent.com/60565002/73836029-04461f80-4841-11ea-9e5d-29f9a1c06a1e.png)
 
 แล้วเราสามารถจะลองใช้ การ issue command ตัวอย่างเช่น
 
@@ -73,8 +73,7 @@ Accept: */*
 
 ลองใช้ method HEAD เรียก หน้าของ admin ซึ่งโดยปกติ ต้องถูก redirect 302 ไปหน้า login  แต่ถ้าลองแล้วได้ 200 ดังภาพ แสดงว่ามีช่องโหว่ที่อาจจะ bypass authen ได้
 
-
-
+![image 3](https://user-images.githubusercontent.com/60565002/73836039-07d9a680-4841-11ea-8c3a-c436efc8c025.png)
 
 จากภาพจะเห็นว่า web server ตอบกลับมาด้วย header ของ admin โดยไม่มี body ถ้าเราเจอแบบนี้ อาจจะมีช่องโหว่ให้เราลอง
 
