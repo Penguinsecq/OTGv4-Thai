@@ -1,6 +1,6 @@
 Try to map the application architecture, protection devices such as WAF, Firewall, Proxy, Database or other.
 
-How to Test
+**How to Test**
 
 1. use NMAP scan targets web server and focus on port status (open, filtered, closed)
 
