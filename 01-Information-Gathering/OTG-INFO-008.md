@@ -1,12 +1,12 @@
 To define type of used web framework so as to have a better understanding of the security testing methodology.
 
-Black Box Testing
+**Black Box Testing**
 
 1. HTTP headers
 
 Use Burp intercept response header from target web server (finding in every page if not found in early)
 
-
+![CFB35F8A-08C7-4DE6-8250-188D32DD261E](https://user-images.githubusercontent.com/60565002/73827375-02289480-4832-11ea-9af7-1bfed12278e2.png)
 
 Remark :
 
@@ -16,7 +16,7 @@ It's important to note that it it can be disabled and/or manipulated by the serv
 
 If I wanted to send out that response header in a PHP script it's as simple as including the following code:
 
-header('x-powered-by: ZendServer 8.5.0,ASP.NET');
+> header('x-powered-by: ZendServer 8.5.0,ASP.NET');
 
 
 2. Cookies
