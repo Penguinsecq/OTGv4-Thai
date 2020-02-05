@@ -13,13 +13,14 @@ use "curl" to test
 
 Example not vulnerable server:
 
-> # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com
-'HTTP/1.1 403 Forbidden'
-Date: Sat, 04 Jun 2011 06:46:21 GMT
-Server: Apache
-Content-Length: 202
-Connection: close
-Content-Type: text/html; charset=iso-8859-1
+' # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com'
+HTTP/1.1 403 Forbidden(U+000A)
+'Date: Sat, 04 Jun 2011 06:46:21 GMT'
+'Server: Apache'
+'Content-Length: 202'
+'Connection: close'
+'Content-Type: text/html; charset=iso-8859-1'
+
 
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
