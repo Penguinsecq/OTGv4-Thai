@@ -13,7 +13,7 @@ use "curl" to test
 
 Example not vulnerable server:
 
-' # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com'
+' # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com' (U+000A)
 HTTP/1.1 403 Forbidden(U+000A)
 'Date: Sat, 04 Jun 2011 06:46:21 GMT'
 'Server: Apache'
