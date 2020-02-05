@@ -1,6 +1,6 @@
 enumerate admin page on the web server.
 
-Black box
+**Black box**
 
 1. ลองพยายามคาดเดา path ที่จะเข้าไปยัง admin interface เช่น
 
@@ -15,7 +15,7 @@ Black box
 5. ใช้ nmap ในการ scan หา port ที่เปิดอยู่อื่นๆ ซึ่งในบางครั้งผู้ทดสอบจะพบว่า admin interface ต้องเข้าผ่าน port ที่ต่างกับ web server ปกติ เช่น port 8080
 
 
-Grey box
+**Grey box**
 
 ได้เอกสารมาก็ตรวจสอบว่า application ไม่ได้มีการใช้ default credential หรือ configuration ที่มีผลทำให้เกิดช่องโหว่ทาง security
 
