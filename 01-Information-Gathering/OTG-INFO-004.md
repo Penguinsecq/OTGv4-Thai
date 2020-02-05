@@ -1,6 +1,6 @@
 Enumerate the applications within scope that exist on a web server. Find applications hosted in the webserver (Virtual hosts/Subdomain), non-standard ports, DNS zone transfers
 
-How to Test Black-box
+**How to Test Black-box**
 
 For non-standard URLs
 
