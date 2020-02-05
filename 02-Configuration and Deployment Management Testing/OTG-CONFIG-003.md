@@ -12,7 +12,7 @@ Use VA Scan, Dirbuster, Nikto or other tools such as wget, curl, google for web 
 •  .bak, .old and other extensions indicative of backup files (for example: ~ for Emacs backup files)
 Try to find more file extension and if you suspect that you encounter with load balance architecture , try to determine whether this may introduce different behavior
 
-GreyBOx
+**GreyBOx**
 
 request related web application file and checking configuration of web server and application server, then find sensitive information and vuln. (maybe whitebox testing if possible)
 
