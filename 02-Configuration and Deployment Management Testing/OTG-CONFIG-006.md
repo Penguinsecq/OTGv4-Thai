@@ -14,7 +14,7 @@ use "curl" to test
 Example not vulnerable server:
 
 > # curl -i -A 'Mozilla/5.0' -X 'TRACE /' -k https://www.not-vulnerable.com
-HTTP/1.1 403 Forbidden
+'HTTP/1.1 403 Forbidden'
 Date: Sat, 04 Jun 2011 06:46:21 GMT
 Server: Apache
 Content-Length: 202
@@ -25,7 +25,7 @@ Content-Type: text/html; charset=iso-8859-1
 <html><head>
 <title>403 Forbidden</title>
 </head><body>
-<h1>Forbidden</h1>
+'<h1>Forbidden</h1>'
 <p>You don't have permission to access /
 on this server.</p>
 </body></html>
