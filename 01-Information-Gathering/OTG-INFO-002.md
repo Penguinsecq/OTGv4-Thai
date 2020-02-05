@@ -23,10 +23,5 @@ httprecon or http://desenmascara.me/
 
 ![5BBB2FFB-ADFA-4179-A70F-AB6EF94BA789](https://user-images.githubusercontent.com/60565002/73824231-5e88b580-482c-11ea-80a3-0f07ff5e2a15.png)
 
-![Image  2](https://user-images.githubusercontent.com/60565002/73824751-46656600-482d-11ea-8857-4cbdf193d91d.png)
-
-
-
-
 
 
