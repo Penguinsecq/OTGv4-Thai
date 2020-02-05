@@ -1,4 +1,4 @@
-How to Test Black Box
+**How to Test Black Box**
 
 Use VA Scan, Dirbuster, Nikto or other tools such as wget, curl, google for web mirrorign tools to find important files extension which maybe included sensitive information. The following file extensions should be inspected.
 
