@@ -1,6 +1,6 @@
 Map the target application and understand the principal workflows.
 
-Black Box Testing
+**Black Box Testing**
 
 1. Spider Web by dirbuster or Burp Spider
 
